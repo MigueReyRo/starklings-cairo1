@@ -32,7 +32,7 @@ fn test_traits1() {
     // TODO make the test pass by creating two instances of Animal
     // and calling make_noise on them
     let cat = AnimalImpl::new('meow');
-    let cow = AnimalImpl::new('moo')
+    let cow = AnimalImpl::new('moo');
 
     assert(cat.make_noise() == 'meow', 'Wrong noise');
     assert(cow.make_noise() == 'moo', 'Wrong noise');
