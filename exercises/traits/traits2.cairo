@@ -54,6 +54,6 @@ fn test_traits2() {
     let kitty: Cat = CatImpl::new();
     assert(kitty.make_noise() == 'meow', 'Wrong noise');
 
-    let cow: Cow = CowImpl::new()
+    let cow: Cow = CowImpl::new();
     assert(cow.make_noise() == 'moo', 'Wrong noise');
 }
